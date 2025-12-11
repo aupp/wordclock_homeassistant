@@ -9,9 +9,20 @@ This custom integration allows you to control your Raspberry Pi Wordclock from H
 
 ## Installation
 
+### Option 1: HACS (Recommended)
+
+1.  Open HACS in Home Assistant.
+2.  Go to **Integrations** > **Top right menu** > **Custom repositories**.
+3.  Add the URL of this repository: `https://github.com/aupp/wordclock_homeassistant`.
+4.  Select **Integration** as the category.
+5.  Click **Add**.
+6.  Find "Wordclock" in the list and install it.
+7.  Restart Home Assistant.
+
+### Option 2: Manual Installation
+
 1.  **Copy the Component**:
-    *   Copy the `wordclock_homeassistant` folder to your Home Assistant configuration directory inside the `custom_components` folder.
-    *   **Important**: Rename the folder from `wordclock_homeassistant` to `wordclock`.
+    *   Copy the `custom_components/wordclock` folder from this repository to your Home Assistant configuration directory inside the `custom_components` folder.
     *   The final path should look like: `/config/custom_components/wordclock/`.
 
 2.  **Restart Home Assistant**:
